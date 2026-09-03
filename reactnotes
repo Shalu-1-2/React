@@ -1,0 +1,53 @@
+CRA:-  (create react app)
+
+npm- start 
+
+vite:- npm create vite@latest app2
+
+  project ko start krne ke liye :- npm run dev 
+  project ko band krne ke liye :- ctlr+c -> press enter = N -> enter
+
+
+
+rafce ka matlab
+
+R → React
+A → Arrow Function
+F → Function
+C → Component
+E → Export
+
+Jab tum VS Code mein:
+
+rafce
+
+likhkar Enter dabati ho, to React component ka basic structure automatically ban jata hai:
+
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>App</div>
+  )
+}
+
+export default App 
+
+*****************************************
+
+global css:- Global CSS wo CSS hoti hai jo poori React website/application par apply hoti hai.
+
+jsk :- JavaScript XML
+
+***************************************
+
+React component ke andar hum ek hi parent element return kar sakte hain.
+
+function App() {
+    return (
+        <>
+            <h1>Hello</h1>
+            <p>Welcome to React</p>
+        </>
+    );
+}
