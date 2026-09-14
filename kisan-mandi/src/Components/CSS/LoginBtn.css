@@ -1,0 +1,24 @@
+.login-btn {
+    height: 38px;
+    padding: 0 22px;
+
+    background-color: white;
+    color: rgb(5, 74, 5);
+
+    border: 1.5px solid rgb(5, 74, 5);
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: rgb(5, 74, 5);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(5, 74, 5, 0.2);
+}

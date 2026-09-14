@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login6-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8eef5;
+}
+
+.login6-page .outer {
+    width: 390px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.login6-page h2 {
+    text-align: center;
+    margin-bottom: 28px;
+    color: #334155;
+}
+
+.login6-page .input-box {
+    margin-bottom: 18px;
+}
+
+.login6-page .input-box label {
+    display: block;
+    margin-bottom: 7px;
+    color: #475569;
+}
+
+.login6-page .input-box input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+}
+
+.login6-page .input-box input:focus {
+    border-color: #475569;
+}
+
+.login6-page button {
+    width: 100%;
+    padding: 11px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #334155;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login6-page button:hover {
+    background-color: #1e293b;
+}

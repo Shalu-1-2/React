@@ -1,0 +1,25 @@
+.signout-btn {
+    height: 38px;
+    padding: 0 22px;
+
+    background-color: goldenrod;
+    color: white;
+
+    border: 1.5px solid goldenrod;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.signout-btn:hover {
+    background-color: #b8860b;
+    border-color: #b8860b;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(184, 134, 11, 0.25);
+}

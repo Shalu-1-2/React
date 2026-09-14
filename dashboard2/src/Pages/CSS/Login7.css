@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login7-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7ed;
+}
+
+.login7-page .outer {
+    width: 390px;
+    padding: 35px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.login7-page h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #c2410c;
+}
+
+.login7-page .input-box {
+    margin-bottom: 18px;
+}
+
+.login7-page .input-box label {
+    display: block;
+    margin-bottom: 7px;
+    color: #444;
+}
+
+.login7-page .input-box input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #fdba74;
+    border-radius: 7px;
+    outline: none;
+}
+
+.login7-page .input-box input:focus {
+    border-color: #ea580c;
+}
+
+.login7-page button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 7px;
+    background-color: #ea580c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login7-page button:hover {
+    background-color: #c2410c;
+}

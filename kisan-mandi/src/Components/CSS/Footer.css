@@ -1,0 +1,158 @@
+
+.footer-section{
+    width: 100%;
+    background-color: #daa520;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+.footer {
+    margin-top: 20px;
+    width: 90%;
+    background-color: rgb(5, 74, 5);
+    color: white;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.footer-container {
+    width: 95%;
+    margin: auto;
+    padding: 50px 10px 40px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 40px;
+}
+
+.footer-about {
+    max-width: 350px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.footer-logo p {
+    font-size: 11px;
+    color: rgb(210, 225, 210);
+    margin-top: 3px;
+}
+
+.footer-description {
+    margin-top: 18px;
+    color: rgb(210, 225, 210);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: rgb(11, 104, 64);
+
+    border-radius: 50%;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: goldenrod;
+    transform: translateY(-3px);
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: goldenrod;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: rgb(220, 230, 220);
+    text-decoration: none;
+    font-size: 14px;
+
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: goldenrod;
+    padding-left: 5px;
+}
+
+.footer-contact p {
+    color: rgb(220, 230, 220);
+    font-size: 14px;
+    margin-bottom: 13px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-bottom {
+    width: 95%;
+    margin: auto;
+
+    padding: 18px 10px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 13px;
+    color: rgb(200, 215, 200);
+}
+
+.footer-bottom div {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom a {
+    color: rgb(200, 215, 200);
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: goldenrod;
+}

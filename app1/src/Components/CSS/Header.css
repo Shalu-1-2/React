@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: rgb(242, 185, 204);
+
+}
+
+.logo {
+    padding: 20px 20px;
+    font-size: 25px;
+    color: brown;
+
+}
+
+nav {
+    padding: 10px;
+    width: 65%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+
+.item.active::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: white;
+}
+
+.icons {
+    height: 30px;
+    padding: 10px 30px;
+    display: flex;
+    gap: 40px;
+}
+
+.icons i {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.icons i:hover {
+    color: brown;
+}
+
+
+
+nav ul li .item {
+    display: block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: brown;
+    font-weight: 900;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+nav ul li .item:hover {
+    background-color: white;
+    color: brown;
+}
+
+nav ul li .item.active {
+    background-color: brown;
+    color: white;
+}
+
+nav ul li .item.active:hover {
+    background-color: brown;
+    color: white;
+}
