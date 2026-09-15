@@ -1,10 +1,13 @@
 import React from 'react'
-import Header from '../../../app4/src/Components/Header'
+import Header from '../Components/Header'
+import Login from './Login'
+import Acount from './Acount'
 
 const Home = () => {
   return (
     <>
     <Header/>
+    
     </>
   )
 }

@@ -3,32 +3,49 @@
     margin: 0%;
 }
 
-.header-outer {
-    height: 70px;
-    width: 100%;
-    background-color: black;
-    color: white;
-}
-
 .header-logo {
-
     padding: 10px;
     height: 30px;
     width: 100px;
 
 }
 
-.header-outer {
+.navbar {
+
+    background-color: white;
+    color: black;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    font-size: 20px;
+    gap: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.header-outer {
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    position: sticky;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    gap: 40px;
+}
+
+.shopmate {
+    color: orangered;
 }
 
 .navlinks {
-    width: 500px;
+    width: 700px;
 }
 
 .navlinks>ul {
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,27 +55,93 @@
 }
 
 .navlinks>ul>li .item {
-    list-style: none;
+    color: black;
     text-decoration: none;
-
 }
 
-button {
-    padding: 5px 10px;
-    background-color: goldenrod;
-    border: none;
+.search-box {
+    border: 1px solid;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+
 }
 
-
-.active::after {
-    content: "";
-    display: block;
-    height: 4px;
-    width: 100%;
-    transition: width 0.3s;
+.search-box input {
+    padding: 5px 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
 }
-.item .active{
-    background-color: brown;
-    color: white;
+
+.icons {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.allproduct {
+    width: 90%;
+    margin:30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.allproduct h1 {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.search-for {
+    width: 40%;
+    padding: 10px 20px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.search-for input {
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 5px 40px;
+}
+.sort{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sort p{
+    margin: 0;
+}
+.sort select {
+    width: 160px;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    color: #333;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.sort select:focus {
+    border-color: #999;
+}
+
+.sort select option {
+    padding: 10px;
 }

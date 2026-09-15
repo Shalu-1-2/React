@@ -1,0 +1,268 @@
+.login {
+    width: 90%;
+    max-width: 1400px;
+    min-height: 500px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.account-page {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100%;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.left-image {
+    width: 50%;
+    padding: 20px;
+    height: 700px;
+    background-image: url('./c8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.login-right {
+    width: 50%;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+.login-form {
+    width: 80%;
+    margin: auto;
+}
+
+.login-form h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.login-form>p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 35px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.forgot {
+    text-align: right;
+    color: #ff6500;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.login-form button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #ff6500;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+center {
+    height: 20px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+
+}
+
+.line {
+    border-bottom: 1px solid gray;
+    width: 50%;
+    margin-left: 5px;
+}
+
+.google {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid #ddd;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.Facebook {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid #ddd;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.form-text {
+    height: 40px;
+    color: black;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-text p {
+    font-size: 20px;
+
+}
+
+.form-text p a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 540px;
+
+}
+
+.box1 {
+    width: 50%;
+}
+
+.box2 {
+    width: 50%;
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 540px;
+
+}
+
+.box3 {
+    width: 50%;
+}
+
+.box4 {
+    width: 50%;
+}
+
+.row3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 540px;
+
+}
+
+.row5 {
+    width: 540px;
+
+}
+
+.row6 {
+    width: 540px;
+
+}
+
+.row4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 540px;
+
+
+}
+
+.box6 {
+    width: 50%;
+    margin-top: -10px;
+}
+
+.box7 {
+    width: 50%;
+}
+
+
+label {
+    display: block;
+}
+
+.password {
+    width: 480px;
+}
+
+.input-box-gender {
+    width: 200px;
+}
+
+.input-box-gender select {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.privacy {
+    padding: 10px 0px;
+}
+
+.span-text {
+    color: #ff6500;
+    font-size: 15px;
+}
